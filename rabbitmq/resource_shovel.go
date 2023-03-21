@@ -111,8 +111,7 @@ func resourceShovel() *schema.Resource {
 						"destination_publish_properties": {
 							Type:     schema.TypeMap,
 							Optional: true,
-							ForceNew: true,
-							Default:  nil,
+							ForceNew: true
 						},
 						"destination_queue": {
 							Type:          schema.TypeString,
